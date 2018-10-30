@@ -1,0 +1,183 @@
+body {
+	margin: 0 auto;
+}
+
+html{
+	font-family: arial;
+}
+h1{
+	margin-top: 4px;
+	margin-bottom: 0px;
+}
+td, th{
+	padding: 12px;
+}
+table{
+	border-collapse: collapse;
+}
+
+img{
+	width: 25px;
+	height: 25px;
+}
+
+#cabeçalho{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	vertical-align: center;
+	text-align: center;
+	color : white;
+	background-color: green;
+}
+
+#esquerda{
+	float: left;
+	width: 52%;
+
+}
+
+#coluna{
+	float: left;
+	background-color:#b8b894;
+	width: 1px;
+	height: 900px;
+}
+
+#direita{
+	float: left;
+	width: 40%;
+	padding-left: 2%;
+	font-size: 12px;
+	text-align: center;
+}
+
+#classificacao{
+	color:#b8b894;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	font-size: 12px;
+}
+
+#jogos{
+	padding-right: 500px;
+	font-size: 17px;
+}
+
+#left{ 
+	float: left;
+}
+
+#right{
+	float: right;
+}
+
+.traço {
+	border-bottom: 1px solid #ddd;
+}
+
+.traço2{
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.tabela1{
+    text-align: left;
+    width:98%;
+    height: 100%;
+    font-size: 12px;
+}
+
+.linha{
+	padding-top: 50px;
+	padding-left: 5%;
+}
+
+.bluenumber{
+  	color: #000099;
+}
+
+.blue2number{
+	color: #33ccff;
+}
+
+.greennumber{
+	color: #003300;
+}
+
+.greynumber{
+	color: #ddd;
+}
+
+.rednumber{
+	color:  #ff0000;
+
+}
+
+.circle-green{
+	height: 8px;
+	width: 8px;
+	background-color: green;
+	border-radius: 50%;
+	float: left;
+	margin-right: 7px
+}
+
+.circle-red{
+	height: 8px;
+	width: 8px;
+	background-color: red;
+	border-radius: 50%;
+	float: left;
+	margin-right: 7px
+
+}
+
+.circle-grey{
+	height: 8px;
+	width: 8px;
+	background-color: #ddd;
+	border-radius: 50%;
+	float: left;
+	margin-right: 7px
+
+}
+
+.escudo{
+	vertical-align: middle;
+}
+
+
+.ranking{
+	color:#b8b894;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	font-size: 12px;
+	text-align: left;
+}
+
+.imgArtilheiros{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;	
+	vertical-align: middle;
+
+}
+.numeracao{
+	font-size: 20px;
+	border-bottom: 1px solid #ddd;
+}
+
+.espaço{
+	padding-right: 750px;
+	text-align: left;
+}
+
+.espaço2{
+	padding-left: 35px;
+}
+
+.artilheiro{
+	color:#b8b894;
+	font-size: 12px;
+	text-align: left;
+}

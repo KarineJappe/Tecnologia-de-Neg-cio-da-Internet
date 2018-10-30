@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    font-family: arial;
+    font: 100% arial;
+    text-align: justify;
+    font-size: 18px;
+   
+}
+section{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+ul, li {
+    list-style: none;
+    padding: 0;
+}
+ footer{
+    text-align: center;
+
+ }
+
+#menu {
+    position: fixed;
+    left: 0;
+    top: 100px;
+    padding: 98px 0 0 0;
+    transition: top 1s;
+}
+
+#menu .navegue {
+    position: absolute;
+    top: 0;
+    left: 40px;
+}
+
+#menu ul li {
+    display: block;
+    margin: 0 0 4px 0;
+    overflow: hidden;
+}
+
+#menu ul li a {
+    display: block;
+    float: left;
+    background: #fff;
+    font-size: 13px;
+    border-radius: 0 5px 5px 0;
+    color: #888;
+    line-height: 1.5em;
+    padding: 6px 15px 4px 15px;
+    vertical-align: middle;
+    transition: all 0.2s;
+    text-decoration: none;
+}
+
+#foto{
+    max-width:15em;
+    border-radius: 70px; 
+}
+.espaco-contatos{
+    margin-right: 15px;
+}
+
+.flex-conteudo{
+    display: flex;
+}
+
+.flex-conteudo div{
+    margin: 30px;
+}
+
+#social{
+    text-align: center;
+}
+#espaco-titulo{
+    padding-bottom: 8em;
+    text-align: left;
+}
+
+#home{
+    background: url(dark.jpg) repeat fixed;
+    background-attachment: fixed;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    text-align: center;
+    color: #fff;
+}
+
+#sobre {
+    background: url(verde.jpg) repeat fixed;
+    background-attachment: fixed;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    color: #fff;
+}
+
+#contatos{
+    background: url(dark.jpg) repeat fixed;
+    background-attachment: fixed;
+    padding-top: 4em;
+    padding-bottom: 16em;
+    color: #fff;
+
+}
+
+#entre-contato{
+    background: url(verde.jpg) repeat fixed;
+    background-attachment: fixed;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    color: #fff;
+}
+#menssagem-form{
+    text-align: right;
+}
+
+form{
+    text-align: right;
+}
+
+form input {
+    border: none;
+     border-radius: 5px;
+     padding: 10px 10px;
+     background: rgba(255,255,255,0.5);
+}
+
+textarea{
+     border: none;
+     border-radius: 5px;
+     padding: 10px 10px;
+     height:158px;
+     width: 400px;
+     background: rgba(255,255,255,0.5);
+    resize: none;
+}
+
